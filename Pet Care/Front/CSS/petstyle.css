@@ -1,0 +1,633 @@
+body {
+	margin: 0px;
+	padding: 0px;
+}
+header {
+	position: fixed;
+	width: 100%;
+}
+.navbar {
+	position: absolute;
+}
+header .navbar .navbar-nav .form-inline button {
+	width: 170px!important;
+	height: 35px!important;
+	background-color: #3A54B4!important;
+	color: #fff;
+	border-radius: 0px!important;
+	border: none;
+	margin: 0px!important;
+}
+.navbar-brand {
+	color:#3A54B4!important;
+	font-size: 25px!important;
+}
+.fa-paw {
+	margin-left: 40px;
+	letter-spacing: 5px;
+	color: #3A54B4;
+}
+.nav-link {
+	color: #3A54B4!important;
+	font-weight: 300!important;
+}
+.Selected {
+	color: orange!important;
+}
+.navbar-nav {
+	width: 50%;
+	display: flex;
+	justify-content: space-around;
+}
+.Divs1 {
+	width: 52%;
+	margin: auto;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.Divs1 .txt {
+	width: 350px;
+	height: 400px;
+	margin-top: 0px;
+}
+.Divs1 .image {
+	width: 450px;
+	height: 450px;
+	border-radius: 250px;
+	background-size: 100% 100%;
+	background-image: url(../../Source/doggy1.webp); 
+}
+.Divs1 .txt h1 {
+	font-size: 150px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    color: #3A54B4;
+    width: 100%;
+    line-height: 125px;
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+.Divs1 .txt p {
+	font-size: 30px;
+    color: #3A54B4;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 0px;
+}
+.Divs1 .txt button {
+	width: 51%;
+    height: 40px;
+    border: none;
+    background: #3A54B4;
+    color: #fff;
+    font-size: 14px;
+}
+@media screen and (max-width: 800px) {
+	.Divs1 {
+		width: 100%!important;
+	}
+}
+@media screen and (max-width: 1560px) {
+	.Divs1 .txt h1 {
+		margin-top: 20px;
+	}
+}
+.Divs2 {
+	margin-top: 400px;
+	width: 60%;
+	margin: auto;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin-top: 200px;
+}
+.Divs2 .image1 {
+	width: 400px;
+	height: 400px;
+	background-size: 100% 100%;
+	border-radius: 250px;
+	background-image: url(../../Source/doctor.webp);
+}
+.Divs2 .txt1 {
+	width: 400px;
+	height: 400px;
+	line-height: 30px;
+	margin-left: 20px;
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+.Divs2 .txt1 h1 {
+	font-size: 60px;
+    font-weight: 700;
+    color: #3A54B4;
+    width: 100%;
+    margin-bottom: 0px;
+}
+.Divs2 .txt1 p {
+	width: 100%;
+    font-weight: 250;
+    opacity: 0.9;
+    color: #3A54B4;
+    margin-top: 30px;
+}
+.Divs2 .txt1 button{
+	width: 35%;
+    height: 38px;
+    border: none;
+    background: #3A54B4;
+    color: #fff;
+    font-size: 14px;
+    margin-top: 20px;
+}
+@media screen and (max-width: 853px) {
+	.Divs2 {
+		width: 100%;
+	}
+}
+.Services section h1 {
+	font-size: 60px;
+	color: #3A54B4;
+	font-weight: 700;
+	text-align: center;
+}
+.Services .txt2 {
+	width: 100%;
+}
+.Services .Divs {
+	width: 60%;
+	margin: auto;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.Services .Divs div .image2 {
+	width: 230px;
+	height: 230px;
+	border-radius: 150px;
+	background-image: url(../../Source/doggy2.webp);
+}
+.Services .Divs div .image3 {
+	width: 230px;
+	height: 230px;
+	border-radius: 150px;
+	background-image: url(../../Source/cat1.webp);
+}
+.Services .Divs div .image4 {
+	width: 230px;
+	height: 230px;
+	border-radius: 150px;
+	background-image: url(../../Source/doggy3.webp);
+}
+.Services .Divs div div h1 {
+	font-size: 30px;
+	margin-top: 20px;
+	color: #3A54B4;
+	font-weight: 600;
+}
+.Services .Divs div div span {
+	font-size: 15px;
+	margin-top: 10px;
+	color: #3A54B4;
+	font-weight: 400;
+	text-align: center;
+	opacity: 0.9;
+	width: 10px;
+	position: relative;
+}
+.Services .Divs div {
+	text-align: center;
+	margin-top: 10px;
+}
+.Services .Divs div div button {
+	width: 140px;
+	height: 35px;
+	border: none;
+	background: #3A54B4;
+	color: #fff;
+	font-size: 14px;
+	margin-top: 20px;
+}
+.Love div {
+	width: 100%;
+	text-align: center;
+}
+.Love div h1 {
+	font-size: 60px;
+	color: #3A54B4;
+	font-weight: 700;
+	text-align: center;
+}
+.Love .image5 {
+	width: 90%;
+	margin: auto;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.Love .image5 div {
+	width: 455px;
+	height: 341px;
+	background-color: #4466d6;
+	margin-top: 20px;
+}
+.Love .image5 div img:hover {
+	opacity: 0.4;
+}
+.Love .image5 div img {
+	width: 100%;
+	height: 100%;
+}
+.what div h1 {
+	font-size: 60px;
+	color: #3A54B4;
+	font-weight: 700;
+	text-align: center;
+	margin-top: 30px;
+}
+.what .Divs2 {
+	text-align: center;
+	width: 60%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin: auto;
+}
+.what .Divs2 div h1 {
+	color: #3A54B4
+	font-weight: 600;
+	font-size: 30px;
+}
+.what .Divs2 div p {
+	color: #3A54B4;
+	font-weight: 400;
+	opacity: 0.8;
+	width: 250px;
+}
+.lastguy {
+	opacity: 1!important;
+	font-weight: 600!important;
+}
+.p1 {
+	margin-left: 10px;
+}
+footer {
+	padding-top: 100px; 
+	width: 100%;
+	background: #3A54B4;
+	height: 801px;
+}
+footer h1 {
+	text-align: center;
+	font-weight: 650;
+	color: #fff;
+	font-size: 60px;
+}
+footer .imp {
+	width: 50%;
+	margin: auto;
+	background: #3A54B4;
+}
+footer .imp .Divs5 {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+footer .imp .Divs5 div {
+	width: 25%;
+	text-align: center;
+}
+footer .imp .Divs5 div h2 {
+	font-weight: 600;
+	font-size: 16px;
+	color: #fff;
+	width: 100%;
+}
+footer .imp .Divs5 div p {
+	color: #fff;
+	margin-bottom: 0px;
+	width: 100%;
+	font-size: 16px;
+}
+@media screen and (max-width: 1230px) {
+	footer .imp {
+		width: 100%;
+	}
+}
+@media screen and (max-width: 620px) {
+	footer {
+		height: 868px;
+	}
+}
+footer .imp .divs6 {
+	margin-top: 50px;
+	width: 100%;
+}
+footer .imp .divs6 form .saxeli {
+	background-color: #3A54B4;
+	border: none;
+	border-bottom: 1px solid white;
+	width: 48%;
+	color: #fff;
+}
+footer .imp .divs6 form .email {
+	background-color: #3A54B4;
+	border: none;
+	border-bottom: 1px solid white;
+	width: 48%;
+	color: #fff;
+	margin-left: 10px;
+}
+footer .imp .divs6 form {
+	width: 100%;
+}
+footer .imp .divs6 form .Subject {
+	background-color: #3A54B4;
+	border: none;
+	border-bottom: 1px solid white;
+	width: 100%;
+	color: #fff;
+	margin-left: 10px;
+	display: block;
+	margin: auto;
+	margin-top: 20px;
+}
+footer .imp .divs6 form input {
+	font-size: 14px;
+}
+footer .imp .divs6 form textarea {
+	background: #3A54B4;
+	color: #fff;
+	font-size: 14px;
+	width: 100%;
+	margin-top: 20px;
+	border: none;
+	border-bottom: 1px solid white;
+	height: 100px;
+}
+footer .imp .divs6 form button {
+	margin: auto;
+	background: #3A54B4;
+	border: none;
+	color: #fff;
+	display: block;
+}
+footer .imp ul {
+	width: 200px;
+	margin: auto;
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-around;
+	padding-left: 0px;
+}
+footer .imp ul li {
+	color: #fff;
+	display: inline-block;
+}
+footer .imp ul li i {
+	font-size: 22px;
+}
+footer img {
+	margin-left: 100px;
+}
+::placeholder {
+	color: #fff;
+}
+.nd2 {
+	margin-top: 80px;
+}
+.hi {
+	margin-top: 50px;
+	text-align: center;
+	color: #3A54B4;
+	font-size: 60px;
+	font-weight: 700;
+}
+.ndh1 {
+	font-weight: 600;
+	font-size: 22px!important;
+}
+.ndp {
+	margin-top: 10px!important;
+	font-size: 15px!important;
+	line-height: 26px;
+	opacity: 0.9;
+}
+.nd2 .txt p {
+	margin-top: 0px!important;
+}
+.nd2 .image1 {
+	background-image: url(../../Source/doctor2.webp)!important;
+}
+.nd2 .image {
+	background-image: url(../../Source/doctordog.webp)!important;
+	margin-left: 40px;
+}
+.mp {
+	width: 60%;
+}
+@media screen and (max-width: 1380px) {
+	.nd2 .txt1 .ndh1 {
+		margin-top: 40px;
+		text-align: center!important;
+	}
+	.nd2 .image1 {
+		margin-top: 0px!important;
+	}
+	.hi {
+		margin-bottom: 0px;
+	}
+	.nd2 .txt {
+		height: 325px;
+	}
+	.nd2 .image {
+		margin-left: 0px;
+	}
+	.nd2 .txt .ndh1 {
+		text-align: center;
+	}
+}
+.book2 {
+	width: 80px!important; 
+	margin-top: 46px!important;
+}
+.dark {
+	font-weight: 600!important;
+}
+.image8 {
+	background: url(../../Source/cat2.webp)!important;
+	width: 186px!important;
+	height: 186px!important;
+}
+.image6 {
+	background: url(../../Source/pet.webp)!important;
+	width: 186px!important;
+	height: 186px!important;
+}
+.image7 {
+	background: url(../../Source/pet2.webp)!important;
+	width: 186px!important;
+	height: 186px!important;
+}
+.image10 {
+	width: 186px!important;
+	height: 186px!important;
+}
+.image11 {
+	background: url(../../Source/doggy5.webp)!important;
+}
+.image12 {
+	background: url(../../Source/cat3.webp)!important;
+}
+.image13 {
+	background: url(../../Source/doggy6.webp)!important;
+}
+.dark1 {
+	font-size: 22px!important;
+}
+.book3 {
+	width: 80px!important;
+}
+.blogs div {
+	width: 65%;
+	margin: auto;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin-top: 100px;
+}
+.blogs div .image50 {
+	width: 469px;
+	height: 362px;
+	background: url(../../Source/doggy50.webp);
+	background-size: 100% 100%;
+}
+.blogs div .text50 {
+	padding-right: 48px;
+	padding-top: 40px;
+	padding-bottom: 37px;
+	width: 421px;
+	height: 285px;
+}
+.blogs div .text50 span {
+	color: black;
+	opacity: 0.2;
+	font-size: 12px;
+}
+.blogs div .text50 i {
+	float: right;
+	font-size: 15px;
+}
+.ndh2 {
+	font-weight: 700;
+	font-size: 28px;
+	color: #3A54B4;
+	margin-top: 30px;
+}
+.ndp2 {
+	font-size: 15px;
+	color: #3A54B4;
+	opacity: 0.6;
+	line-height: 25.5px;
+}
+@media screen and (max-width: 1370px) {
+	.ndh2 {
+		text-align: center;
+	}
+	.ndp2 {
+		text-align: center;
+	}
+	.blogs div .text50 {
+		padding-right: 0px;
+		width: 469px;
+	}
+}
+@media screen and (max-width: 740px) {
+	.blogs div {
+		width: 100%;
+	}
+}
+.blogs div .text50 hr {
+	background: black;
+	opacity: 0.2;
+}
+.fa-heart {
+	color: red!important;
+}
+.image51 {
+	background: url(../../Source/sleep.webp)!important;
+}
+.image52 {
+	background: url(../../Source/teeth.webp)!important;
+}
+.image53 {
+	background: url(../../Source/bath.webp)!important;
+}
+.image54 {
+	background: url(../../Source/cute.webp)!important;
+}
+.image55 {
+	background: url(../../Source/cute2.webp)!important;
+}
+.image56 {
+	background: url(../../Source/lastcat.webp)!important;
+}
+.Subscribe {
+	width: 61%;
+	margin: auto;
+	margin-top: 60px;
+}
+.Sub {
+	font-size: 30px;
+	font-weight: 400!important;
+	color: #3A54B4;
+}
+.email4 {
+	width: 93.764%;
+	border: none;
+}
+.Subscribe form .Divs100 i {
+	font-size: 13px;
+	opacity: 0.8;
+	margin-top: 19px;
+}
+.Subscribe form .Divs100 div {
+	border-bottom: 1px solid #3A54B4;
+	width: 791px;
+	padding-bottom: 0px;
+}
+.Subscribe form .Divs100 div input {
+	border: none;
+	font-size: 15px;
+}
+.email4::placeholder {
+	color: #3A54B4!important;
+	opacity: 0.8!important;
+}
+.Subscribe form .Divs100 button {
+	width: 146px;
+	height: 37px;
+	color: #fff;
+	background: #3A54B4;
+	border: none;
+	font-size: 14px;
+}
+.Divs100 {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+@media screen and (max-width: 475px) {
+	.Sub {
+		text-align: center;
+		margin-top: 80px;
+	}
+	.Subscribe {
+		width: 95%;
+	}
+}
+@media screen and (max-width: 1555px) {
+	.Subscribe form .Divs100 button {
+		margin-top: 20px;
+	}
+}
